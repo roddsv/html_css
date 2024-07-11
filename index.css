@@ -1,0 +1,21 @@
+body {
+    background-image: url(images/salesforce-developer.png);
+    font-family: Arial;
+}
+
+.menu {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.menu li {
+    list-style: none;
+}
