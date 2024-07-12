@@ -1,5 +1,6 @@
 body {
-    background-image: url(images/salesforce-developer.png);
+    background-image: url(imgs/salesforce-developer.png);
+    background-size: auto 100vh;
     font-family: Arial;
 }
 
@@ -7,15 +8,30 @@ body {
     background-color: white;
 }
 
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #000000;
+.menu ul {
+    display: flex;
+    justify-content: space-around;
 }
 
 .menu li {
     list-style: none;
+}
+
+a {
+    color: teal;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.site-title, .site-subtitle {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.site-subtitle {
+    font-style: italic;
 }
