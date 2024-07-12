@@ -15,9 +15,6 @@ Olá! Eu sou o Rodrigo Soares, um Desenvolvedor Salesforce. Tenho experiência e
 
 - **Outras Tecnologias**: HTML, CSS, JavaScript, Node.js, AWS
 
-## Projetos
-
-
 ## Contato
 
 Estou sempre aberto a novas oportunidades e colaborações. Você pode me encontrar nos seguintes canais:
