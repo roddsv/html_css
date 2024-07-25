@@ -27,6 +27,12 @@ body {
         font-size: 18px;
     }
 }
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 22px;
+    }
+}
 header {
     height: 70vh;
     display: flex;
