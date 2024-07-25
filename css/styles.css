@@ -1,12 +1,35 @@
+/* css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-image: url(../imgs/salesforce-developer.png);
+    background-image: url(../imgs/fundo.png);
     background-size: auto 100vh;
     font-family: Arial;
     height: 100vh;
 }
 
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center; /*dentro do flex, alinha na horizontal*/
+    align-items: center; /* dentro do flex, alinha na vertical*/
+}
+
 .menu {
     background-color: white;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+.menu a {
+    padding: 10px 20px;
+    display: block;
 }
 
 .menu ul {
@@ -35,4 +58,9 @@ a:hover {
 
 .site-subtitle {
     font-style: italic;
+}
+
+.portfolio-img {
+    width: 240px;
+    height: 240px;
 }
