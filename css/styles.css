@@ -84,5 +84,9 @@ a:hover {
 .portfolio-img {
     width: 240px;
     height: 240px;
+<<<<<<< HEAD
     background-color: #000000;
+=======
+    background-color: red;
+>>>>>>> d57dc65ad66b6a299ad7517305f062718c029e2e
 }
